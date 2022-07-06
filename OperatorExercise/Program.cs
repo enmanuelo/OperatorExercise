@@ -4,31 +4,70 @@ namespace OperatorExercise
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Addition(int num1, int num2)
         {
-            // Exercise 1:
             int a = 17;
             int b = 4;
             int sum = a + b;
-            int difference = a - b;
-            int product = a * b;
-            int quotient = a / b;
-            int remainder = a % b;
-
-            if (a == 17 && b == 4)
+            if (num1 == 17 && num2 == 4)
             {
-                Console.WriteLine($"{a} + {b} is {sum}");
-                Console.WriteLine($"{a} - {b} is {difference}");
-                Console.WriteLine($"{a} x {b} is {product}");
-                Console.WriteLine($"{a} / {b} is {quotient} remainder {remainder}");
+                Console.WriteLine($"{num1} + {num2} is {sum}");
             }
             else
             {
                 Console.WriteLine($"The sum of these two number is probably not {sum}");
-                Console.WriteLine($"The difference of these two numbers is probably not {difference}");
-                Console.WriteLine($"The product of these two numbers is probably not {product}");
-                Console.WriteLine($"The quotient of these two numbers is probably not {quotient} remainder {remainder}");
             }
+        }
+        public static void Subtraction(int num1, int num2)
+        {
+            int a = 17;
+            int b = 4;
+            int difference = a - b;
+            if (num1 == 17 && num2 == 4)
+            {
+                Console.WriteLine($"{num1} - {num2} is {difference}");
+            }
+            else
+            {
+                Console.WriteLine($"The difference of these two number is probably not {difference}");
+            }
+        }
+        public static void Multiplication(int num1, int num2)
+        {
+            int a = 17;
+            int b = 4;
+            int product = a * b;
+            if (num1 == 17 && num2 == 4)
+            {
+                Console.WriteLine($"{num1} * {num2} is {product}");
+            }
+            else
+            {
+                Console.WriteLine($"The product of these two number is probably not {product}");
+            }
+        }
+        public static void Division(int num1, int num2)
+        {
+            int a = 17;
+            int b = 4;
+            int quotient = a / b;
+            int remainder = a % b;
+            if (num1 == 17 && num2 == 4)
+            {
+                Console.WriteLine($"{num1} / {num2} is {quotient} remainder {remainder}");
+            }
+            else
+            {
+                Console.WriteLine($"The quotient of these two number is probably not {quotient} remainder {remainder}");
+            }
+        }
+        static void Main(string[] args)
+        {
+            // Exercise 1:
+            Addition(17, 4);
+            Subtraction(17, 4);
+            Multiplication(17, 4);
+            Division(17, 4);
 
             // Exercise 2:
             Console.WriteLine("Enter radius of circle: ");
