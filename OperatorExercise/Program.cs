@@ -61,6 +61,10 @@ namespace OperatorExercise
                 Console.WriteLine($"The quotient of these two number is probably not {quotient} remainder {remainder}");
             }
         }
+        public static double AreaOfCircle(double r)
+        {
+            return Math.PI * Math.Pow(r, 2);
+        }
         static void Main(string[] args)
         {
             // Exercise 1:
@@ -75,12 +79,5 @@ namespace OperatorExercise
 
             Console.WriteLine($"The area of a circle with radius {radius} is {AreaOfCircle(radius)}");
         }
-
-        //Create a method that will Calculate the area of a circle based on its radius
-        public static double AreaOfCircle(double r)
-        {
-            return Math.PI * Math.Pow(r, 2);
-        }
     }
-
 }
