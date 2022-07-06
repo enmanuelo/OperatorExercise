@@ -7,15 +7,13 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="OperatorExercise/Program.cs">
     <Files>
-      <File FileName="OperatorExercise/Program.cs" Line="14" Column="79" />
+      <File FileName="OperatorExercise/Program.cs" Line="11" Column="22" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="OperatorExercise" expanded="True">
-            <Node name="OperatorExercise" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
+            <Node name="OperatorExercise" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -24,5 +22,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.OperatorExercise PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.OperatorExercise PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
